@@ -1,4 +1,4 @@
-
-alert("hello there\nfrom xss")
-console.log("another hello to console\nfrom your best friend xss")
-
+let cube = document.querySelector('#cube')
+cube.addEventListener('load', function() {
+  alert('XSS')
+})
