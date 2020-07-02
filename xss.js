@@ -1,4 +1,4 @@
 let cube = document.querySelector('#cube')
-cube.addEventListener('load', function() {
+cube.addEventListener('click', function() {
   alert('XSS')
 })
